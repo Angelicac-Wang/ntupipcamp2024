@@ -589,8 +589,8 @@ height: 100%;width: 100%;z-index: 9999999;}
 .top-header .overlay{opacity:0;-webkit-transition:all 0.3s;transition:all 0.3s}
 .logo-header{display:block;-webkit-transform:translateY(20px);-ms-transform:translateY(20px);transform:translateY(20px);-webkit-transition:all 0.3s;transition:all 0.3s}
 .top-header.after-scroll .logo-header{-webkit-transform:translateY(1px);-ms-transform:translateY(1px);transform:translateY(1px)}
-.logo-header .logo{display:inline-block;float:left;width:185px;height:60px;margin-right:20px;-webkit-transform:scale(0.7);-ms-transform:scale(0.7);transform:scale(0.7);vertical-align:middle}
-.logo-navbar{width:185px;height:60px;margin:8px 20px 0 -10px;-webkit-transform:scale(0.6);-ms-transform:scale(0.6);transform:scale(0.6);vertical-align:middle}
+.logo-header .logo{display:inline-block;float:left;width:185px;height:80px;margin-right:20px;-webkit-transform:scale(0.7);-ms-transform:scale(0.7);transform:scale(0.7);vertical-align:middle}
+.logo-navbar{width:185px;height:80px;margin:8px 20px 0 -10px;-webkit-transform:scale(0.6);-ms-transform:scale(0.6);transform:scale(0.6);vertical-align:middle}
 .st-menu-open nav{-webkit-transform:translate(0);-ms-transform:translate(0);transform:translate(0)}nav ul{float:left;margin:0;padding:0;list-style:none;text-align:left;-webkit-transform:translateY(40px);-ms-transform:translateY(40px);transform:translateY(40px);-webkit-transition:all 0.3s;transition:all 0.3s}
 .top-header.after-scroll nav ul{-webkit-transform:translateY(20px);-ms-transform:translateY(20px);transform:translateY(20px)}nav li{display:inline-block;padding:0 8px;vertical-align:middle}nav li a{font-size:13px;font-weight:300;-webkit-transition:all 0.3s;transition:all 0.3s;text-transform:uppercase;color:#fff}nav li a.current,nav li a:hover{text-decoration:none;color:#cfcfcf}
 .top-header.after-scroll nav li a{color:rgba(0,0,0,0.5)}
