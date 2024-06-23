@@ -557,9 +557,9 @@ height: 100%;width: 100%;z-index: 9999999;}
 .logo {
   background-image: url("../img/favicons/宿營IG頭貼.png");
   background-repeat: no-repeat;
-  background-size: auto 40px; /* 等比例缩小至高度40像素 */
+  background-size: auto 80px; /* 等比例缩小至高度40像素 */
   background-position: center; /* 確保圖片居中顯示 */
-  height: 40px; /* 容器高度設置為40px */
+  height: 80px; /* 容器高度設置為40px */
   width: auto; /* 根據需要設置容器寬度 */
 }
 
