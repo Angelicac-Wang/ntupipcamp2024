@@ -449,7 +449,7 @@ time{display:block}.st-content,.st-container,.st-pusher{height:100%}
   top: 50%;
   /* centers the loading animation vertically on the screen */
   /* path to your loading animation */
-  background-image: url("../img/sprites/logos_1_1.jpg");
+  background-image: url('../img/favicons/宿營IG頭貼.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -554,10 +554,25 @@ height: 100%;width: 100%;z-index: 9999999;}
 .flexbox-item-height{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}
 .reset-padding{padding:0}
 
-.logo{background-image:url("../img/sprites/whosepartylogo-185-188.svg");background-repeat:no-repeat}
-.logo.logo-dark{background-position:0 -1px}
-.logo.logo-gray{background-position:0 -63px}
-.logo.logo-light{background-position:0 -127px}
+.logo {
+  background-image: url("../img/favicons/宿營IG頭貼.png");
+  background-repeat: no-repeat;
+  background-size: auto 40px; /* 等比例缩小至高度40像素 */
+  background-position: center; /* 確保圖片居中顯示 */
+  height: 40px; /* 容器高度設置為40px */
+  width: auto; /* 根據需要設置容器寬度 */
+}
+
+.logo.logo-dark,
+.logo.logo-gray,
+.logo.logo-light {
+  background-image: inherit; /* 繼承背景圖片 */
+  background-size: inherit; /* 繼承背景大小 */
+  background-position: inherit; /* 繼承背景位置 */
+  height: inherit; /* 繼承容器高度 */
+  width: inherit; /* 繼承容器寬度 */
+}
+
 
 .icon{display:inline-block;width:12.5px;height:12.5px;cursor:pointer;fill:#8b8b8b;-webkit-transition:all .5s;transition:all .5s}
 .icon_news{display:inline-block;width:25px;height:25px;cursor:pointer;fill:#8b8b8b;-webkit-transition:all .5s;transition:all .5s}
