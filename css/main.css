@@ -3108,8 +3108,7 @@ nav li a.current, nav li a:hover {
 }
 .footer li {
 	margin-bottom: 9px;
-	list-style-type: none;
-	font-weight: 400
+	list-style-type: none
 }
 .footer a {
 	color: #8b8b8b
