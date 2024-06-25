@@ -632,30 +632,137 @@ height: 100%;width: 100%;z-index: 9999999;}
 .rockstar-speakers .sub{font-family: 'Noto Serif TC', serif;font-size:18.2px;margin:0 0 15px;color:#03a9f4}
 .rockstar-speaker{padding-bottom:13px}
 .rockstar-speaker-img{width:140px;height:140px;}
-.pricing-col{overflow:hidden;margin-bottom:26px;padding:0;font-size:16px;font-weight:100;border:1px #ddd solid;}
-.pricing-col:last-child{border-right:1px #ddd solid;border-left:none}
-.pricing-col.pricing-col-featured{top:-27px}
-.pricing-col.pricing-col-featured:not(:first-child){margin-left:0;border:solid 1px #4285f4}
-.pricing-col.pricing-col-featured .pricing-ribbon{background:#4285f4}
-.pricing-col.pricing-col-featured .title{margin-bottom:33px}
-.pricing-col.pricing-col-featured .price{margin-bottom:30px;color:#4285f4}
-.pricing-col.pricing-col-featured .pricing-content{padding-top:2px}
-.pricing-col.pricing-col-featured .button{margin-top:45px;background:#4285f4}
-.pricing-col.pricing-col-featured .button:hover{background:#3266d5}
-.pricing-col.pricing-col-featured .button.disabled:hover{background:#4285f4}
-.pricing-col .title{font-size:32px;font-weight:100;margin:0;padding:20px 0;background:#f2f2f2}
-.pricing-col .price{margin:30px 0 10px;padding:26px 0;font-size:65px;font-weight:100;color:#000}
-.pricing-col .currency{font-size:32px}
-.pricing-col .button{font-size:32px;display:block;margin-top:30px;padding:7px 25px 10px;color:#fff;background:#7c2222;font-weight:500;text-decoration:none}
-.pricing-col .button:hover{background:#a46969}
-.pricing-col .button.disabled{font-size:32px;display:block;margin-top:30px;padding:7px 25px 10px;color:#fff;background:#4d4d4d;font-weight:500;text-decoration:none}
-.pricing-col .button.disabled:hover{background:#4d4d4d}
-.pricing-col .button.fallback{font-size:18px;line-height:1.4}
-.pricing-col .pricing-ribbon{position:absolute;top:10px;right:-45px;padding:5px 50px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);color:rgb(255, 255, 255);background:#7c2222}
-.pricing-content{font-weight:300}
-.pricing-content ul{width:80%;margin:0 auto;margin-top:16px;padding:0}
-.pricing-content li{padding:16px 0;list-style:none;border-bottom:solid 1px #ddd}
-.pricing-content li:last-child{border-bottom:none}
+
+.pricing-col {
+    overflow: hidden;
+    margin-bottom: 26px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    border: 1px #ddd solid;
+    border-right: none
+}
+
+.pricing-col:last-child {
+    border-right: 1px #ddd solid;
+    border-left: none
+}
+
+.pricing-col.pricing-col-featured {
+    top: -27px
+}
+
+.pricing-col.pricing-col-featured:not(:first-child) {
+    margin-left: 0;
+    border: solid 1px #4285f4
+}
+
+.pricing-col.pricing-col-featured .pricing-ribbon {
+    background: #4285f4
+}
+
+.pricing-col.pricing-col-featured .title {
+    margin-bottom: 33px
+}
+
+.pricing-col.pricing-col-featured .price {
+    margin-bottom: 30px;
+    color: #4285f4
+}
+
+.pricing-col.pricing-col-featured .pricing-content {
+    padding-top: 2px
+}
+
+.pricing-col.pricing-col-featured .button {
+    margin-top: 45px;
+    background: #4285f4
+}
+
+.pricing-col.pricing-col-featured .button:hover {
+    background: #3266d5
+}
+
+.pricing-col.pricing-col-featured .button.disabled:hover {
+    background: #4285f4
+}
+
+.pricing-col .title {
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0;
+    padding: 20px 0;
+    background: #f2f2f2
+}
+
+.pricing-col .price {
+    margin: 30px 0 10px;
+    padding: 26px 0;
+    font-size: 65px;
+    font-weight: 100;
+    color: #000
+}
+
+.pricing-col .currency {
+    font-size: 32px
+}
+
+.pricing-col .button {
+    font-size: 32px;
+    display: block;
+    margin-top: 30px;
+    padding: 7px 25px 10px;
+    color: #fff;
+    background: #1a1919;
+    font-weight: 100;
+    text-decoration: none
+}
+
+.pricing-col .button:hover {
+    background: #4d4d4d
+}
+
+.pricing-col .button.disabled:hover {
+    background: #1a1919
+}
+
+.pricing-col .button.fallback {
+    font-size: 18px;
+    line-height: 1.4
+}
+
+.pricing-col .pricing-ribbon {
+    position: absolute;
+    top: 10px;
+    right: -45px;
+    padding: 5px 50px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #e0d71e;
+    background: #1a1919
+}
+
+.pricing-content {
+    font-weight: 300
+}
+
+.pricing-content ul {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 0
+}
+
+.pricing-content li {
+    padding: 16px 0;
+    list-style: none;
+    border-bottom: solid 1px #ddd
+}
+
+.pricing-content li:last-child {
+    border-bottom: none
+}
 .tickets-2 .ticket-text,.tickets-2 .price,.tickets-2 .title{margin:0;font-size:32px;font-weight:100;line-height:39px}
 .tickets-2 .title{padding-left:10px;text-align:left}
 .tickets-2 .ticket-additional-text,.tickets-2 .ticket-additional-info{margin-top:3px;display:block;font-size:12px;line-height:13px}
@@ -1043,7 +1150,7 @@ height: 100%;width: 100%;z-index: 9999999;}
   .rockstar-speakers .name{font-size:20px}
   .rockstar-speakers .sub{font-size:16px}
   .rockstar-speaker-img{width:120px;height:120px}
-  .pricing-col{width:90% !important;border:1px #ddd solid}
+  .pricing-col{width:100% !important;border:1px #ddd solid}
   .pricing-col:last-child{border:1px #ddd solid}
   .pricing-col.pricing-col-featured{top:0}
   .pricing-col.pricing-col-featured .title{margin:0}
