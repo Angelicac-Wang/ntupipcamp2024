@@ -1150,12 +1150,32 @@ height: 100%;width: 100%;z-index: 9999999;}
   .rockstar-speakers .name{font-size:20px}
   .rockstar-speakers .sub{font-size:16px}
   .rockstar-speaker-img{width:120px;height:120px}
-  .pricing-col{width:100% !important;border:1px #ddd solid}
-  .pricing-col:last-child{border:1px #ddd solid}
-  .pricing-col.pricing-col-featured{top:0}
-  .pricing-col.pricing-col-featured .title{margin:0}
-  .pricing-col.pricing-col-featured .pricing-content{padding:0}
-  .pricing-col.pricing-col-featured .button{margin:0}
+
+    .pricing-col {
+        width: 100% !important;
+        border: 1px #ddd solid
+    }
+
+    .pricing-col:last-child {
+        border: 1px #ddd solid
+    }
+
+    .pricing-col.pricing-col-featured {
+        top: 0
+    }
+
+    .pricing-col.pricing-col-featured .title {
+        margin: 0
+    }
+
+    .pricing-col.pricing-col-featured .pricing-content {
+        padding: 0
+    }
+
+    .pricing-col.pricing-col-featured .button {
+        margin: 0
+    }
+
   .tickets-2 .price{font-size:28px;margin-top:15px}
   .tickets-2 .title{padding:0;text-align:center}
   .tickets-2 .ticket-additional-text,.tickets-2 .ticket-additional-info{font-size:13px;line-height:14px}
