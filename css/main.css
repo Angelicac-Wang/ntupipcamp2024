@@ -3108,7 +3108,8 @@ nav li a.current, nav li a:hover {
 }
 .footer li {
 	margin-bottom: 9px;
-	list-style-type: none
+	list-style-type: none;
+	font-weight: 400
 }
 .footer a {
 	color: #8b8b8b
