@@ -2305,7 +2305,7 @@ time {
 	left: 0
 }
 .overlay.solid-overlay {
-	background: rgba(210, 204, 203, 0.8)
+	background: rgba(255,255,255,0.9)
 }
 .overlay.white-solid {
 	background: rgba(255, 255, 255, 0.9)
