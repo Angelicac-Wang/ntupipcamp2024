@@ -3156,10 +3156,7 @@ nav li a.current, nav li a:hover {
 	font-weight: 500
 }
 .post-header .publish-date {
-	color: #656565;
-	display: block;
-	width: 100%;
-    	box-sizing: border-box;
+	color: #656565
 }
 .post-header .share {
 	padding: 0;
