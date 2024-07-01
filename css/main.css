@@ -12,6 +12,13 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'NotoSerifCJKtc-Regular';
+	src: url('../fonts/NotoSerifCJKtc-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
