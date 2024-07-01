@@ -1,5 +1,17 @@
-@import url("//fonts.googleapis.com/earlyaccess/cwtexfangsong.css");
-@import url("//fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C500");
+@font-face {
+	font-family: 'NotoSansTC-Bold';
+	src: url('../fonts/NotoSansTC-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'NotoSansTC-Bold';
+	src: url('../fonts/NotoSansTC-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
