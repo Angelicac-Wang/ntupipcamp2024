@@ -16,6 +16,13 @@
 	font-family: 'NotoSansTC-Regular';
 	src: url('../fonts/NotoSansTC-Regular.ttf') format('truetype');
 	font-weight: normal;
+	font-style: normsal;
+}
+
+@font-face {
+	font-family: 'NotoSansTC-SemiBold';
+	src: url('../fonts/NotoSansTC-SemiBold.ttf') format('truetype');
+	font-weight: normal;
 	font-style: normal;
 }
 
