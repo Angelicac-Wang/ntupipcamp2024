@@ -1,1 +1,4 @@
-Sitemap: /https://ntu.im/whoseparty/sitemap.xml
+User-agent: *
+Disallow:
+
+Sitemap: https://angelicac-wang.github.io/ntupipcamp2024/sitemap.xml
