@@ -2440,6 +2440,10 @@ time {
 	width: 100%;
 	/* 根據需要設置容器寬度 */
 }
+.logo.logo-light{
+	background-image: url("../img/favicons/橫白logo.png");
+}
+
 .icon {
 	display: inline-block;
 	width: 12.5px;
