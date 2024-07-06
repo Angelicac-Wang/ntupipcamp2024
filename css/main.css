@@ -2504,7 +2504,10 @@ time {
 	position: fixed;
 	z-index: 500;
 	width: 100%;
-	padding: 0 45px
+	padding-top: 0px;
+    padding-right: 45px;
+    padding-bottom: 0px;
+    padding-left: 0px
 }
 .top-header.after-scroll {
 	padding-top: 0;
@@ -2534,9 +2537,10 @@ time {
 .logo-header .logo {
 	display: inline-block;
 	float: left;
-	width: 185px;
+	width: 270px;
 	height: 80px;
 	margin-right: 20px;
+	margin-left: 0px;
 	-webkit-transform: scale(0.7);
 	-ms-transform: scale(0.7);
 	transform: scale(0.7);
@@ -3151,8 +3155,8 @@ nav li a.current, nav li a:hover {
 	margin-top: 10px
 }
 .logo-footer {
-	width: 185px;
-	height: 60px;
+	width: 270px;
+	height: 80px;
 	margin: -13px -13px 0;
 	-webkit-transform: scale(0.65);
 	-ms-transform: scale(0.65);
