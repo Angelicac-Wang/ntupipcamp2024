@@ -4386,7 +4386,7 @@ nav li a.current, nav li a:hover {
 		width: 25%
 	}
 	.col-md-4 {
-		width: 33.33333%
+		width: 40%
 	}
 	.col-md-5 {
 		width: 41.66667%
@@ -4398,7 +4398,7 @@ nav li a.current, nav li a:hover {
 		width: 58.33333%
 	}
 	.col-md-8 {
-		width: 66.66667%
+		width: 60%
 	}
 	.col-md-9 {
 		width: 75%
