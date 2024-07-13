@@ -4151,7 +4151,7 @@ nav li a.current, nav li a:hover {
 		width: 8.33333%
 	}
 	.col-sm-2 {
-		width: 16.66667%
+		width: 20%
 	}
 	.col-sm-3 {
 		width: 25%
@@ -4268,7 +4268,7 @@ nav li a.current, nav li a:hover {
 		margin-left: 8.33333%
 	}
 	.col-sm-offset-2 {
-		margin-left: 16.66667%
+		margin-left: 10%
 	}
 	.col-sm-offset-3 {
 		margin-left: 25%
