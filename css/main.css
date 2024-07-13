@@ -2586,7 +2586,7 @@ nav ul {
 }
 nav li {
 	display: inline-block;
-	padding: 0 3px;
+	padding: 0 4px;
 	vertical-align: middle
 }
 nav li a {
@@ -4831,7 +4831,7 @@ nav li a.current, nav li a:hover {
 	nav ul {
 		line-height: 20px;
 		width: 95%;
-		margin: 20px 0 0 5px;
+		margin: 0px 0 0 -20px;
 		-webkit-transform: translateY(0);
 		-ms-transform: translateY(0);
 		transform: translateY(0)
@@ -5218,7 +5218,7 @@ nav li a.current, nav li a:hover {
 		display: none !important
 	}
 	.top-header {
-		padding: 13px 0 0 34px
+		padding: 13px 0 0 0px
 	}
 	.statistic .stat {
 		font-size: 80px
