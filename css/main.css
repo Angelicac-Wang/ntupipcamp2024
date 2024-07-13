@@ -4693,6 +4693,9 @@ nav li a.current, nav li a:hover {
 	.col-lg-offset-12 {
 		margin-left: 100%
 	}
+	.col-lg-offset-13 {
+		margin-left: 5%
+	}
 	.visible-lg {
 		display: block !important
 	}
