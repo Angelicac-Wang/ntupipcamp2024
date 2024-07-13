@@ -2429,7 +2429,7 @@ time {
 	padding: 0
 }
 .logo {
-	background-image: url("../img/favicons/橫白logo.png");
+	background-image: url("../img/favicons/橫logo灰.png");
 	background-repeat: no-repeat;
 	background-size: auto 100px;
 	/* 等比例缩小至高度60像素 */
@@ -2441,7 +2441,7 @@ time {
 	/* 根據需要設置容器寬度 */
 }
 .logo.logo-light{
-	background-image: url("../img/favicons/橫白logo.png");
+	background-image: url("../img/favicons/橫logo灰.png");
 }
 .logo.logo-dark{
 	background-image: url("../img/favicons/橫logo.png");
@@ -2544,7 +2544,7 @@ time {
 .logo-header .logo {
 	display: inline-block;
 	float: left;
-	width: 270px;
+	width: 250px;
 	height: 80px;
 	margin-right: 0px;
 	margin-left: 0px;
