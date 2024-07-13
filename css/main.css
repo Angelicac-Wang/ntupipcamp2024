@@ -2544,7 +2544,7 @@ time {
 .logo-header .logo {
 	display: inline-block;
 	float: left;
-	width: 250px;
+	width: 270px;
 	height: 80px;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -2877,8 +2877,8 @@ nav li a.current, nav li a:hover {
 	display: block;
 	margin-top: 30px;
 	padding: 7px 25px 10px;
-	color: #fff;
-	background: #7c2222;
+	color: black;
+	background: #ffffff;
 	font-weight: 500;
 	text-decoration: none
 }
@@ -2916,7 +2916,7 @@ nav li a.current, nav li a:hover {
 .pricing-content {
 	font-weight: 300;
 	border-right: none;
-	background-color: #caa6a6;
+	background-color: #dfc9d5;
 }
 .pricing-content ul {
 	width: 80%;
