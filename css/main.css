@@ -2863,7 +2863,7 @@ nav li a.current, nav li a:hover {
 	background: #f2f2f2
 }
 .pricing-col .price {
-	margin: 30px 0 10px;
+	margin: 10px 0 0px;
 	padding: 26px 0;
 	font-size: 65px;
 	font-weight: 100;
