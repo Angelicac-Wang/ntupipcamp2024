@@ -4797,6 +4797,9 @@ nav li a.current, nav li a:hover {
 	h6 {
 		font-size: 19.5px
 	}
+	h7 {
+		font-size: 40.5px
+	}
 	.logo-header {
 		-webkit-transform: translateX(-45px);
 		-ms-transform: translateX(-45px);
