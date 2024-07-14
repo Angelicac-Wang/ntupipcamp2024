@@ -2586,7 +2586,7 @@ nav ul {
 }
 nav li {
 	display: inline-block;
-	padding: 0 30px;
+	padding: 0 3px;
 	vertical-align: middle
 }
 nav li a {
