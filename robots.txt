@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://angelicac-wang.github.io/ntupipcamp2024/sitemap.xml
+Sitemap: https://ntu.im/ntupipcamp2024/sitemap.xml
